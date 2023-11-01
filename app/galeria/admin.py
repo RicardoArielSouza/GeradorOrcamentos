@@ -1,3 +1,8 @@
 from django.contrib import admin
+from galeria.models import *
 
-# Register your models here.
+class ListandoCategorias(admin.ModelAdmin):
+    pass
+
+admin.site.register(Categoria)
+admin.site.register(Produtos)
